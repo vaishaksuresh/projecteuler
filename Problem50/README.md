@@ -17,6 +17,9 @@ Solution Approach
 * In each iteration, if the resulting sum is higher than current sum and the sum is prime, update
 * Otherwise continue.
 
+Reference
+---------
+http://www.mathblog.dk/project-euler-50-sum-consecutive-primes/
 
 Execution Steps
 ===============
