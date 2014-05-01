@@ -11,7 +11,11 @@ Which prime, below one-million, can be written as the sum of the most consecutiv
 
 Solution Approach
 =================
-
+* Get a list flags for prime numbers under 1 million using sieve of eratosthenese
+* Get a list of prime numbers using the flags.
+* Maintain a running sum of primes where the sum is also prime.
+* In each iteration, if the resulting sum is higher than current sum and the sum is prime, update
+* Otherwise continue.
 
 
 Execution Steps
