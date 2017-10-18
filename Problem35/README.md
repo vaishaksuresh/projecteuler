@@ -10,7 +10,7 @@ Solution Approach
 * If it is less than 100, return error message.
 * If the number is >100, start with 13 and increment when you find circular primes in the below steps
 * For each number between 101 and limit, compute all possible combinations.
-* Do this by repeatedly extracting teh first character and appending to the end
+* Do this by repeatedly extracting the first character and appending to the end
 * For each such number, check if it is prime.
 	+ If number is even, return false
 	+ starting from 3 through square root of number, if any number divides the number completely, return false
@@ -21,7 +21,7 @@ Solution Approach
 
 Execution Steps
 ===============
-The code can be executed using teh follwoing commands.
+The code can be executed using the follwoing commands.
 
 `javac Problem35.java`
 
